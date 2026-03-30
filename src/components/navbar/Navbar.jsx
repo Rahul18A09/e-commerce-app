@@ -12,6 +12,7 @@ const Navbar = () => {
 
   const context = useContext(myContext);
   const { mode, toggleMode } = context;
+  
   return (
     <div>
       {/* Mobile menu */}
