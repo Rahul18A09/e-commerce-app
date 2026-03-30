@@ -1,4 +1,10 @@
 import React from "react";
+
+// Slick-Slider
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
 import { Route, Router, Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Order from "./pages/order/Order";
